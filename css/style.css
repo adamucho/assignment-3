@@ -55,9 +55,7 @@ header{
   color:#033048;
 }
 
-img{
-  padding-bottom: 20px;
-}
+
 
 article{
   font-size: 24px;
@@ -71,8 +69,12 @@ article::first-letter {
     font-size: 300%;
     color: gray;
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  font-weight: 600;
+    border-top: 20px;
+
+
+   
+
 }
 /*em{
    font-size: 50px;
@@ -190,46 +192,31 @@ article::first-letter {
   color: white;
 }
 
-footer{
-  background-color: #121212;
-  height: 250px;
 
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
 }
-
-h4{
+footer .logo {
   color: #f9e42e;
-  position: relative;
-  font-size: 24px;
-  font-weight: 800;
-  margin: auto;
-  top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
 }
 
-#social_media img{
-  position: relative;
-  top: 80px;
-  margin: auto;
-
-
-}
-
-.twitter img{
-  padding-right: 30px;
-  width: 30px;
-
-}
-
-.facebook img{
-   width: 12px;
-}
-
-footer p{
-  position: relative;
-  padding-top: 150px;
-  color: white;
-  font-size: 9px;
+footer p {
+  font-size: 13px;
+  color: #fff;
   font-weight: 300;
 }
+
+
 
 
 
